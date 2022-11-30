@@ -7,8 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <div style="border-radius: 5px; border: 5px solid <%= color %>">
-        
+    <div style="display: flex; align-items: center; flex-direction: column; width:500px; aspect-ratio: 9 / 16; margin: 0 auto; border-radius: 10px; border: 5px solid <%= color %>">
+        <progress style="width: 80%;" value="<%= battery %>" max="100"><%= battery %>%</progress>
+        <br>
+        <div>
+            Márka: <%= brand %><br>
+            Típus: <%= type %><br>
+            Ár: <%= price %><br>
+            Állapot: <%= state %><br>
+        </div>
     </div>
 </body>
 </html>
