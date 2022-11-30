@@ -4,5 +4,5 @@ export declare class MobilePhoneDto {
     color: string;
     price: number;
     battery: number;
-    state: number;
+    state: string;
 }
